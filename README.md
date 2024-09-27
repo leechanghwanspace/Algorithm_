@@ -1,10 +1,10 @@
 # Algorithm_[codingtest study repo]
 ## [Baekjoon](https://www.acmicpc.net/), [Programmers](https://programmers.co.kr/)
 
-## Language
+### Language
 All problems are solved using **Java**.
 
-## Folder Structure
+### Folder Structure
 The repository is organized by platform and problem categories.
 
 ---
