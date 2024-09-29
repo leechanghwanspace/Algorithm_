@@ -48,6 +48,8 @@ BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));<br>
 
 - BufferedReader와 BufferedWriter는 표준 입력과 출력을 처리할 때 성능을 높이기 위해 버퍼링을 사용하는 클래스로, 기본 Scanner나 System.out.println보다 빠른 입출력을 제공합니다.
 - 특히, 많은 양의 데이터를 입력받거나 출력할 때 유리합니다. 본 코드에서는 BufferedReader를 통해 입력을 처리하고, BufferedWriter를 통해 출력을 모아 한 번에 처리합니다.
+-  new InputStreamReader(System.in)은 키보드로 입력된 바이트 데이터를 문자로 변환하여 읽을 수 있게 하는 객체입니다.
+-  new OutputStreamWriter(System.out)은 문자 데이터를 바이트로 변환하여 콘솔에 출력할 수 있게 하는 객체입니다.
 
 ## 2. 테스트 케이스 입력 처리
 
@@ -70,6 +72,7 @@ for (int i = 0; i < T; i++) {<br>
 ```
 
 - 테스트 케이스 수만큼 반복하며 각 케이스에서 두 개의 숫자를 입력받아 그 합을 구하고, 그 결과를 BufferedWriter에 기록합니다.
+- br.readLine(): BufferedReader 객체인 br을 사용하여 한 줄의 입력을 받습니다. 즉, 사용자가 엔터를 치기 전까지 입력한 모든 문자열을 가져옵니다. 이 입력은 String 형식으로 반환됩니다.
 - 입력된 두 수는 공백으로 구분되어 있으므로, split(" ")을 사용해 공백을 기준으로 문자열을 나눕니다.
 - write() 메서드를 통해 덧셈 결과를 버퍼에 저장합니다. 개행을 위해 "\n"을 추가합니다.
 
