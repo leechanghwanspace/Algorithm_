@@ -9,7 +9,9 @@ All problems are solved using **Java**.<br>
 
 
 ### Folder Structure
-The repository is organized by platform and problem categories.
+The repository is organized by platform and problem level.
 
 ---
 This is an auto push repository for Baekjoon Online Judge created with BaekjoonHub.
+
+---
