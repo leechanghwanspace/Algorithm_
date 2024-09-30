@@ -1,6 +1,8 @@
 # Algorithm : codingtest study repo
 ## [Baekjoon](https://www.acmicpc.net/), [Programmers](https://programmers.co.kr/)
 
+[📖기록하고 싶은 문제들📖](https://goormthonuniv.notion.site/96ebc227387948e0ba5abd88bd1ecb4b?pvs=4)
+
 ### Language
 All problems are solved using **Java**.<br>
 
