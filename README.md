@@ -1,7 +1,7 @@
 # Algorithm : codingtest study repo
 ## [Baekjoon](https://www.acmicpc.net/), [Programmers](https://programmers.co.kr/)
 
-[📖기록하고 싶은 문제들📖](https://resilient-kingfisher-b90.notion.site/Algorithm-Coding-Test-10e52a72b8de802481a5dea40211ec7f?pvs=4)
+[📖 기록하고 싶은 문제들](https://resilient-kingfisher-b90.notion.site/Algorithm-Coding-Test-10e52a72b8de802481a5dea40211ec7f?pvs=4)
 
 ### Language
 All problems are solved using **Java**.<br>
